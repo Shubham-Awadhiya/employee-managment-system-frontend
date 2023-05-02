@@ -1,0 +1,23 @@
+<app-header></app-header>
+
+<div>
+    <label><b>Employee Name: </b></label> {{employee.empName}}
+  </div>
+  <div>
+    <label><b>Department Name: </b></label> {{employee.department.departmentName}}
+  </div>
+  <div>
+    <label><b>Role: </b></label> {{employee.role.roleName}}
+  </div>  
+
+
+<br>
+<br>
+<button (click)="list()" class="btn btn-primary">Back to Employee List</button><br>
+
+
+<footer class="footer">
+    <div class="container">
+        <span>All Rights Reserved </span>
+    </div>
+  </footer>
